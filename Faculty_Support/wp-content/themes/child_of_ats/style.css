@@ -1,0 +1,20 @@
+/*
+
+Theme Name: Child of ATS
+Description: Child theme of ATS theme
+Author: Paul Salessi
+Version: 0.0.1
+Template: ats
+
+*/
+
+/* --------- Adds styling to WP site description ----- */
+.site-description{
+	font-size:1em;
+	font-style:italic;
+}
+
+/* ----------- Adding align right picture functionality ---- */
+#main_section .alignright {
+	float: right;
+}

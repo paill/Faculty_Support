@@ -1,0 +1,120 @@
+/*
+Theme Name: Academic Technology Services
+Theme URI: http://ats.ucdavis.edu/
+Author: Simon Dvorak
+Author URI: http://ats.ucdavis.edu/
+Description: Wordpress template based on styles of UC Comm. template V2
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: ats
+Domain Path: /languages/
+Tags:
+*/
+#container{
+height:325px;
+}
+
+
+#slider-wrapper {
+	position: relative;
+	height: 286px;
+	width: 692px;
+}
+
+#slider-wrapper #slider a img{
+	border:0px none;	
+}
+
+#slider {
+	overflow: hidden;
+	position: absolute;
+	height: 286px;
+	width: 692px;
+}
+
+#slider ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+#slider ul li a {
+	height: 286px;
+	width: 692px;
+}
+
+#slider-wrapper #bar {
+	background: none repeat scroll 0 0 #fff;
+	position: absolute;
+	width: 692px;
+	height: 25px;
+	top: 260px;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+	z-index: 60;
+}
+
+#slider-text {
+	overflow: hidden;
+	position: absolute !important;
+	top: 262px;
+	left: 0px;
+	z-index: 61;
+	width: 450px;
+	height: 26px;
+	border-bottom: 0px none;
+	font-size: 14px;
+	padding: 3px 0px 0px 10px;
+}
+
+#slider-text a {
+	text-decoration: none;
+	border-bottom: 0px none;
+	color: #000266;
+	font-weight: bold;
+	z-index: 61;
+	float: right;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.2em;
+}
+
+#slider-nav {
+	position: absolute;
+	top: 260px;
+	line-height: 0;
+	font-size: 0;
+	z-index: 61;
+	left:500px;
+}
+
+#slider-nav a {
+	float: left;
+	height: 8px;
+	width: 8px;
+	margin: 8px !important;
+	display:block;
+	background:#BF9900;
+	cursor: pointer;
+}
+
+#slider-nav a.activeSlide {
+	margin: 6px !important;
+	border:2px solid #002666;
+}
+
+#slider-nav a:hover, #slider-nav a:focus, #slider-nav a:hover.activeSlide {
+	height: 12px;
+	width: 12px;
+	margin: 6px !important;
+	border:0px none;
+}
+
+#slider-nav .temp {
+	background-color: transparent !important;
+}
+
+.site-description{
+	font-size:1em;
+	font-style:italic;
+}
+.alignright{float:right;}
